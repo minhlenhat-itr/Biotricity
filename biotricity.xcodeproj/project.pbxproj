@@ -17,6 +17,13 @@
 		61165A6427DAF7000015A758 /* biotricityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A6327DAF7000015A758 /* biotricityTests.swift */; };
 		61165A6E27DAF7000015A758 /* biotricityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A6D27DAF7000015A758 /* biotricityUITests.swift */; };
 		61165A7027DAF7000015A758 /* biotricityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A6F27DAF7000015A758 /* biotricityUITestsLaunchTests.swift */; };
+		61165A8127DB31090015A758 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8027DB31090015A758 /* LoginViewController.swift */; };
+		61165A8327DB31680015A758 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8227DB31680015A758 /* DashBoardViewController.swift */; };
+		61165A8527DB31730015A758 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8427DB31730015A758 /* RegisterViewController.swift */; };
+		61165A8B27DB40DC0015A758 /* SimCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8A27DB40DC0015A758 /* SimCardView.swift */; };
+		61165A8D27DB423B0015A758 /* SimCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61165A8C27DB423B0015A758 /* SimCardView.xib */; };
+		61165A9027DB46280015A758 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8F27DB46280015A758 /* CheckBoxView.swift */; };
+		61165A9227DB46340015A758 /* CheckBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61165A9127DB46340015A758 /* CheckBoxView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		61165A6927DAF7000015A758 /* biotricityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biotricityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61165A6D27DAF7000015A758 /* biotricityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biotricityUITests.swift; sourceTree = "<group>"; };
 		61165A6F27DAF7000015A758 /* biotricityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biotricityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61165A8027DB31090015A758 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61165A8227DB31680015A758 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		61165A8427DB31730015A758 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		61165A8A27DB40DC0015A758 /* SimCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimCardView.swift; sourceTree = "<group>"; };
+		61165A8C27DB423B0015A758 /* SimCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimCardView.xib; sourceTree = "<group>"; };
+		61165A8F27DB46280015A758 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		61165A9127DB46340015A758 /* CheckBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,10 @@
 		61165A4827DAF6FC0015A758 /* biotricity */ = {
 			isa = PBXGroup;
 			children = (
+				61165A7C27DB30830015A758 /* UI */,
 				61165A4927DAF6FC0015A758 /* AppDelegate.swift */,
 				61165A4B27DAF6FC0015A758 /* SceneDelegate.swift */,
 				61165A4D27DAF6FC0015A758 /* ViewController.swift */,
-				61165A4F27DAF6FC0015A758 /* Main.storyboard */,
 				61165A5527DAF7000015A758 /* Assets.xcassets */,
 				61165A5727DAF7000015A758 /* LaunchScreen.storyboard */,
 				61165A5A27DAF7000015A758 /* Info.plist */,
@@ -128,6 +142,53 @@
 				61165A6F27DAF7000015A758 /* biotricityUITestsLaunchTests.swift */,
 			);
 			path = biotricityUITests;
+			sourceTree = "<group>";
+		};
+		61165A7C27DB30830015A758 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				61165A4F27DAF6FC0015A758 /* Main.storyboard */,
+				61165A7F27DB30E20015A758 /* customView */,
+				61165A7E27DB30D60015A758 /* viewModel */,
+				61165A7D27DB30BB0015A758 /* viewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		61165A7D27DB30BB0015A758 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				61165A8027DB31090015A758 /* LoginViewController.swift */,
+				61165A8227DB31680015A758 /* DashBoardViewController.swift */,
+				61165A8427DB31730015A758 /* RegisterViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		61165A7E27DB30D60015A758 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		61165A7F27DB30E20015A758 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				61165A8E27DB45FE0015A758 /* checkBox */,
+				61165A8A27DB40DC0015A758 /* SimCardView.swift */,
+				61165A8C27DB423B0015A758 /* SimCardView.xib */,
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
+		61165A8E27DB45FE0015A758 /* checkBox */ = {
+			isa = PBXGroup;
+			children = (
+				61165A8F27DB46280015A758 /* CheckBoxView.swift */,
+				61165A9127DB46340015A758 /* CheckBoxView.xib */,
+			);
+			path = checkBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +297,8 @@
 			files = (
 				61165A5927DAF7000015A758 /* LaunchScreen.storyboard in Resources */,
 				61165A5627DAF7000015A758 /* Assets.xcassets in Resources */,
+				61165A8D27DB423B0015A758 /* SimCardView.xib in Resources */,
+				61165A9227DB46340015A758 /* CheckBoxView.xib in Resources */,
 				61165A5127DAF6FC0015A758 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +326,12 @@
 			files = (
 				61165A4E27DAF6FC0015A758 /* ViewController.swift in Sources */,
 				61165A5427DAF6FC0015A758 /* biotricity.xcdatamodeld in Sources */,
+				61165A8B27DB40DC0015A758 /* SimCardView.swift in Sources */,
+				61165A8527DB31730015A758 /* RegisterViewController.swift in Sources */,
+				61165A9027DB46280015A758 /* CheckBoxView.swift in Sources */,
 				61165A4A27DAF6FC0015A758 /* AppDelegate.swift in Sources */,
+				61165A8327DB31680015A758 /* DashBoardViewController.swift in Sources */,
+				61165A8127DB31090015A758 /* LoginViewController.swift in Sources */,
 				61165A4C27DAF6FC0015A758 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
