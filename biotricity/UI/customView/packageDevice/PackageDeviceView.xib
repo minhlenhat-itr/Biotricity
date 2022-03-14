@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HDM-zB-h5I" customClass="PackageDeviceView" customModule="biotricity" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="353"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PACKAGE DEVICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PS4-Wz-KGW">
+                    <rect key="frame" x="132" y="44" width="165.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WI - 1306 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtN-7p-96g">
+                    <rect key="frame" x="165" y="73" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm device is packaged per WI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoA-SD-a5J">
+                    <rect key="frame" x="81.5" y="166" width="266" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device ID 3322010010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvQ-hl-aM9">
+                    <rect key="frame" x="128" y="99" width="173" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0Wh-8e-ccu"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0Wh-8e-ccu" firstAttribute="top" secondItem="PS4-Wz-KGW" secondAttribute="top" id="5Hz-qn-exP"/>
+                <constraint firstItem="PvQ-hl-aM9" firstAttribute="centerX" secondItem="HDM-zB-h5I" secondAttribute="centerX" id="XPa-Lw-49n"/>
+                <constraint firstItem="RtN-7p-96g" firstAttribute="centerX" secondItem="HDM-zB-h5I" secondAttribute="centerX" id="bq7-dg-oAm"/>
+                <constraint firstItem="uoA-SD-a5J" firstAttribute="centerY" secondItem="HDM-zB-h5I" secondAttribute="centerY" id="ecZ-lf-obZ"/>
+                <constraint firstItem="PS4-Wz-KGW" firstAttribute="centerX" secondItem="HDM-zB-h5I" secondAttribute="centerX" id="k4b-bN-KE9"/>
+                <constraint firstItem="uoA-SD-a5J" firstAttribute="centerX" secondItem="HDM-zB-h5I" secondAttribute="centerX" id="ndg-qW-4Pg"/>
+                <constraint firstItem="RtN-7p-96g" firstAttribute="top" secondItem="PS4-Wz-KGW" secondAttribute="bottom" constant="5" id="nef-sO-XcB"/>
+                <constraint firstItem="PvQ-hl-aM9" firstAttribute="top" secondItem="RtN-7p-96g" secondAttribute="bottom" constant="5" id="wNM-Ne-lU6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="161.59420289855075" y="-122.87946428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

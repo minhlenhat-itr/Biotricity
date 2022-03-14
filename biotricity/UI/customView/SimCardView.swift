@@ -9,27 +9,26 @@ import Foundation
 import UIKit
 
 class SimCardView : UIView {
-    @IBOutlet var contentView: UIView!
-    
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setupXib()
-    }
 
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        setupXib()
-    }
-
-    func setupXib() {
-        
-        let bundle = Bundle(for: SimCardView.self)
-        bundle.loadNibNamed("SimCardView", owner: self, options: nil)
-        self.contentView.frame = self.bounds
-        self.contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    @IBOutlet var contentView: SimCardView!
     
-        addSubview(self.contentView)
-        
-    }
+//    required init?(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//        initSubviews()
+//    }
+//
+//    override init(frame: CGRect) {
+//        super.init(frame: frame)
+//        initSubviews()
+//    }
+//
+//    func initSubviews() {
+//        // standard initialization logic
+//        let nib = UINib(nibName: "SimCardView", bundle: nil)
+//        nib.instantiate(withOwner: self, options: nil)
+//        contentView.frame = bounds
+//        addSubview(contentView)
+//
+//        // custom initialization logic
+//    }
 }

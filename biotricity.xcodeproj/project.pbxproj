@@ -24,6 +24,20 @@
 		61165A8D27DB423B0015A758 /* SimCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61165A8C27DB423B0015A758 /* SimCardView.xib */; };
 		61165A9027DB46280015A758 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61165A8F27DB46280015A758 /* CheckBoxView.swift */; };
 		61165A9227DB46340015A758 /* CheckBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61165A9127DB46340015A758 /* CheckBoxView.xib */; };
+		6149604B27DF2BA800EF5428 /* CarrierWebPortalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149604A27DF2BA800EF5428 /* CarrierWebPortalView.xib */; };
+		6149604E27DF2E1400EF5428 /* InstallFirmWareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149604D27DF2E1400EF5428 /* InstallFirmWareView.xib */; };
+		6149605127DF2EFC00EF5428 /* DeviceIDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149605027DF2EFC00EF5428 /* DeviceIDView.xib */; };
+		6149605427DF2FB600EF5428 /* CellularSignalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149605327DF2FB600EF5428 /* CellularSignalView.xib */; };
+		6149605727DF309F00EF5428 /* FunctionTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149605627DF309F00EF5428 /* FunctionTestView.xib */; };
+		6149605B27DF330D00EF5428 /* BatteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149605A27DF330D00EF5428 /* BatteryView.xib */; };
+		6149605E27DF33B600EF5428 /* PackageDeviceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6149605D27DF33B600EF5428 /* PackageDeviceView.xib */; };
+		6149606027DF357C00EF5428 /* CarrierWebPortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149605F27DF357C00EF5428 /* CarrierWebPortalView.swift */; };
+		6149606227DF359C00EF5428 /* InstallFirmWareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606127DF359C00EF5428 /* InstallFirmWareView.swift */; };
+		6149606427DF35B500EF5428 /* DeviceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606327DF35B500EF5428 /* DeviceIDView.swift */; };
+		6149606627DF35D900EF5428 /* CellularSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606527DF35D900EF5428 /* CellularSignalView.swift */; };
+		6149606827DF35F100EF5428 /* FunctionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606727DF35F100EF5428 /* FunctionTestView.swift */; };
+		6149606A27DF360800EF5428 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606927DF360800EF5428 /* BatteryView.swift */; };
+		6149606C27DF361E00EF5428 /* PackageDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149606B27DF361E00EF5428 /* PackageDeviceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +79,20 @@
 		61165A8C27DB423B0015A758 /* SimCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimCardView.xib; sourceTree = "<group>"; };
 		61165A8F27DB46280015A758 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		61165A9127DB46340015A758 /* CheckBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxView.xib; sourceTree = "<group>"; };
+		6149604A27DF2BA800EF5428 /* CarrierWebPortalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarrierWebPortalView.xib; sourceTree = "<group>"; };
+		6149604D27DF2E1400EF5428 /* InstallFirmWareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallFirmWareView.xib; sourceTree = "<group>"; };
+		6149605027DF2EFC00EF5428 /* DeviceIDView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceIDView.xib; sourceTree = "<group>"; };
+		6149605327DF2FB600EF5428 /* CellularSignalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellularSignalView.xib; sourceTree = "<group>"; };
+		6149605627DF309F00EF5428 /* FunctionTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FunctionTestView.xib; sourceTree = "<group>"; };
+		6149605A27DF330D00EF5428 /* BatteryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatteryView.xib; sourceTree = "<group>"; };
+		6149605D27DF33B600EF5428 /* PackageDeviceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackageDeviceView.xib; sourceTree = "<group>"; };
+		6149605F27DF357C00EF5428 /* CarrierWebPortalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierWebPortalView.swift; sourceTree = "<group>"; };
+		6149606127DF359C00EF5428 /* InstallFirmWareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallFirmWareView.swift; sourceTree = "<group>"; };
+		6149606327DF35B500EF5428 /* DeviceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIDView.swift; sourceTree = "<group>"; };
+		6149606527DF35D900EF5428 /* CellularSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularSignalView.swift; sourceTree = "<group>"; };
+		6149606727DF35F100EF5428 /* FunctionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTestView.swift; sourceTree = "<group>"; };
+		6149606927DF360800EF5428 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		6149606B27DF361E00EF5428 /* PackageDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageDeviceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +203,13 @@
 		61165A7F27DB30E20015A758 /* customView */ = {
 			isa = PBXGroup;
 			children = (
+				6149605C27DF339C00EF5428 /* packageDevice */,
+				6149605827DF32DC00EF5428 /* batteryView */,
+				6149605527DF308D00EF5428 /* functionTest */,
+				6149605227DF2F7B00EF5428 /* cellularSignal */,
+				6149604F27DF2EEB00EF5428 /* DeviceID */,
+				6149604C27DF2DF500EF5428 /* FirmWareView */,
+				6149604927DF2B8700EF5428 /* CarrierWebPortal */,
 				61165A8E27DB45FE0015A758 /* checkBox */,
 				61165A8A27DB40DC0015A758 /* SimCardView.swift */,
 				61165A8C27DB423B0015A758 /* SimCardView.xib */,
@@ -189,6 +224,69 @@
 				61165A9127DB46340015A758 /* CheckBoxView.xib */,
 			);
 			path = checkBox;
+			sourceTree = "<group>";
+		};
+		6149604927DF2B8700EF5428 /* CarrierWebPortal */ = {
+			isa = PBXGroup;
+			children = (
+				6149604A27DF2BA800EF5428 /* CarrierWebPortalView.xib */,
+				6149605F27DF357C00EF5428 /* CarrierWebPortalView.swift */,
+			);
+			path = CarrierWebPortal;
+			sourceTree = "<group>";
+		};
+		6149604C27DF2DF500EF5428 /* FirmWareView */ = {
+			isa = PBXGroup;
+			children = (
+				6149604D27DF2E1400EF5428 /* InstallFirmWareView.xib */,
+				6149606127DF359C00EF5428 /* InstallFirmWareView.swift */,
+			);
+			path = FirmWareView;
+			sourceTree = "<group>";
+		};
+		6149604F27DF2EEB00EF5428 /* DeviceID */ = {
+			isa = PBXGroup;
+			children = (
+				6149605027DF2EFC00EF5428 /* DeviceIDView.xib */,
+				6149606327DF35B500EF5428 /* DeviceIDView.swift */,
+			);
+			path = DeviceID;
+			sourceTree = "<group>";
+		};
+		6149605227DF2F7B00EF5428 /* cellularSignal */ = {
+			isa = PBXGroup;
+			children = (
+				6149605327DF2FB600EF5428 /* CellularSignalView.xib */,
+				6149606527DF35D900EF5428 /* CellularSignalView.swift */,
+			);
+			path = cellularSignal;
+			sourceTree = "<group>";
+		};
+		6149605527DF308D00EF5428 /* functionTest */ = {
+			isa = PBXGroup;
+			children = (
+				6149605627DF309F00EF5428 /* FunctionTestView.xib */,
+				6149606727DF35F100EF5428 /* FunctionTestView.swift */,
+			);
+			path = functionTest;
+			sourceTree = "<group>";
+		};
+		6149605827DF32DC00EF5428 /* batteryView */ = {
+			isa = PBXGroup;
+			children = (
+				6149605A27DF330D00EF5428 /* BatteryView.xib */,
+				6149606927DF360800EF5428 /* BatteryView.swift */,
+			);
+			path = batteryView;
+			sourceTree = "<group>";
+		};
+		6149605C27DF339C00EF5428 /* packageDevice */ = {
+			isa = PBXGroup;
+			children = (
+				6149605D27DF33B600EF5428 /* PackageDeviceView.xib */,
+				6149606B27DF361E00EF5428 /* PackageDeviceView.swift */,
+			);
+			path = packageDevice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +394,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				61165A5927DAF7000015A758 /* LaunchScreen.storyboard in Resources */,
+				6149605B27DF330D00EF5428 /* BatteryView.xib in Resources */,
+				6149605127DF2EFC00EF5428 /* DeviceIDView.xib in Resources */,
+				6149604E27DF2E1400EF5428 /* InstallFirmWareView.xib in Resources */,
 				61165A5627DAF7000015A758 /* Assets.xcassets in Resources */,
+				6149605727DF309F00EF5428 /* FunctionTestView.xib in Resources */,
 				61165A8D27DB423B0015A758 /* SimCardView.xib in Resources */,
 				61165A9227DB46340015A758 /* CheckBoxView.xib in Resources */,
+				6149604B27DF2BA800EF5428 /* CarrierWebPortalView.xib in Resources */,
+				6149605E27DF33B600EF5428 /* PackageDeviceView.xib in Resources */,
 				61165A5127DAF6FC0015A758 /* Main.storyboard in Resources */,
+				6149605427DF2FB600EF5428 /* CellularSignalView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +430,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				61165A4E27DAF6FC0015A758 /* ViewController.swift in Sources */,
+				6149606427DF35B500EF5428 /* DeviceIDView.swift in Sources */,
 				61165A5427DAF6FC0015A758 /* biotricity.xcdatamodeld in Sources */,
+				6149606027DF357C00EF5428 /* CarrierWebPortalView.swift in Sources */,
 				61165A8B27DB40DC0015A758 /* SimCardView.swift in Sources */,
 				61165A8527DB31730015A758 /* RegisterViewController.swift in Sources */,
+				6149606A27DF360800EF5428 /* BatteryView.swift in Sources */,
+				6149606827DF35F100EF5428 /* FunctionTestView.swift in Sources */,
 				61165A9027DB46280015A758 /* CheckBoxView.swift in Sources */,
+				6149606C27DF361E00EF5428 /* PackageDeviceView.swift in Sources */,
 				61165A4A27DAF6FC0015A758 /* AppDelegate.swift in Sources */,
 				61165A8327DB31680015A758 /* DashBoardViewController.swift in Sources */,
 				61165A8127DB31090015A758 /* LoginViewController.swift in Sources */,
 				61165A4C27DAF6FC0015A758 /* SceneDelegate.swift in Sources */,
+				6149606227DF359C00EF5428 /* InstallFirmWareView.swift in Sources */,
+				6149606627DF35D900EF5428 /* CellularSignalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

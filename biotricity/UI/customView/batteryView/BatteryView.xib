@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7ms-19-gNt" customClass="BatteryView" customModule="biotricity" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="542" height="392"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WI - 1306 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rO-R1-7ee">
+                    <rect key="frame" x="221.5" y="73" width="99" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device ID 3322010010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFB-iv-eP4">
+                    <rect key="frame" x="184.5" y="98.5" width="173" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm battery is charged" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZT-mJ-auf">
+                    <rect key="frame" x="169" y="186" width="204" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHARGE BATTERY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="com-8k-C6T">
+                    <rect key="frame" x="185" y="44" width="172.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bMF-gJ-Qy2"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="com-8k-C6T" firstAttribute="centerX" secondItem="7ms-19-gNt" secondAttribute="centerX" id="HJT-lr-I6m"/>
+                <constraint firstItem="yFB-iv-eP4" firstAttribute="centerX" secondItem="7ms-19-gNt" secondAttribute="centerX" id="Rbz-IY-Urs"/>
+                <constraint firstItem="uZT-mJ-auf" firstAttribute="centerY" secondItem="7ms-19-gNt" secondAttribute="centerY" id="XMn-OC-l7U"/>
+                <constraint firstItem="6rO-R1-7ee" firstAttribute="centerX" secondItem="7ms-19-gNt" secondAttribute="centerX" id="XV3-CD-jde"/>
+                <constraint firstItem="uZT-mJ-auf" firstAttribute="centerX" secondItem="7ms-19-gNt" secondAttribute="centerX" id="XZa-21-CzZ"/>
+                <constraint firstItem="com-8k-C6T" firstAttribute="top" secondItem="bMF-gJ-Qy2" secondAttribute="top" id="bVv-Vr-u0Z"/>
+                <constraint firstItem="6rO-R1-7ee" firstAttribute="top" secondItem="com-8k-C6T" secondAttribute="bottom" constant="5" id="jDl-m7-aDy"/>
+                <constraint firstItem="yFB-iv-eP4" firstAttribute="top" secondItem="6rO-R1-7ee" secondAttribute="bottom" constant="5" id="yJU-8b-8d4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="298.55072463768118" y="-101.11607142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

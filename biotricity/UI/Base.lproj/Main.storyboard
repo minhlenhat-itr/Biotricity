@@ -131,8 +131,8 @@
                                     <constraint firstItem="kAO-z7-YsI" firstAttribute="centerY" secondItem="EMW-qN-PA9" secondAttribute="centerY" id="xFK-qW-Jf8"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Cw-Qy-VbI">
-                                <rect key="frame" x="30" y="124" width="315" height="580"/>
+                            <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cw-Qy-VbI">
+                                <rect key="frame" x="0.0" y="124" width="375" height="580"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sUt-vy-JdU"/>
@@ -143,12 +143,12 @@
                             <constraint firstItem="Pa6-Xi-sbm" firstAttribute="leading" secondItem="sUt-vy-JdU" secondAttribute="leading" constant="30" id="MJV-3a-X2i"/>
                             <constraint firstItem="sUt-vy-JdU" firstAttribute="bottom" secondItem="Pa6-Xi-sbm" secondAttribute="bottom" constant="10" id="UQs-Sa-6M2"/>
                             <constraint firstAttribute="trailing" secondItem="kAO-z7-YsI" secondAttribute="trailing" constant="16" id="nri-N5-DLJ"/>
-                            <constraint firstItem="3Cw-Qy-VbI" firstAttribute="leading" secondItem="sUt-vy-JdU" secondAttribute="leading" constant="30" id="qKB-EO-Z2N"/>
+                            <constraint firstItem="3Cw-Qy-VbI" firstAttribute="leading" secondItem="sUt-vy-JdU" secondAttribute="leading" id="qKB-EO-Z2N"/>
                             <constraint firstItem="EMW-qN-PA9" firstAttribute="top" secondItem="sUt-vy-JdU" secondAttribute="top" id="qfv-yN-Xzy"/>
                             <constraint firstItem="Pa6-Xi-sbm" firstAttribute="top" secondItem="3Cw-Qy-VbI" secondAttribute="bottom" constant="30" id="s5w-4E-CU3"/>
                             <constraint firstItem="sUt-vy-JdU" firstAttribute="trailing" secondItem="Pa6-Xi-sbm" secondAttribute="trailing" constant="30" id="tSy-nB-8pT"/>
                             <constraint firstItem="EMW-qN-PA9" firstAttribute="trailing" secondItem="sUt-vy-JdU" secondAttribute="trailing" id="vaP-qX-uOj"/>
-                            <constraint firstItem="sUt-vy-JdU" firstAttribute="trailing" secondItem="3Cw-Qy-VbI" secondAttribute="trailing" constant="30" id="ykt-tj-iOi"/>
+                            <constraint firstItem="sUt-vy-JdU" firstAttribute="trailing" secondItem="3Cw-Qy-VbI" secondAttribute="trailing" id="ykt-tj-iOi"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FWC-Uo-hYB"/>

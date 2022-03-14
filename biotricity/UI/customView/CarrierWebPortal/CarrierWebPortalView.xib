@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wde-KR-cNL" customClass="CarrierWebPortalView" customModule="biotricity" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="496" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UPDATE CARRIER WEB PORTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUY-Ez-hJA">
+                    <rect key="frame" x="102" y="44" width="292" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WI - 1306 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHa-ux-NHg">
+                    <rect key="frame" x="198.5" y="73" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device ID 3322010010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nn2-b6-aQs">
+                    <rect key="frame" x="161.5" y="99" width="173" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Web Portal is updated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abv-hM-XxT">
+                    <rect key="frame" x="131.5" y="130" width="233" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="sQp-O0-9Ex"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="sHa-ux-NHg" firstAttribute="top" secondItem="JUY-Ez-hJA" secondAttribute="bottom" constant="5" id="4Xp-N2-izW"/>
+                <constraint firstItem="abv-hM-XxT" firstAttribute="centerX" secondItem="wde-KR-cNL" secondAttribute="centerX" id="8Ev-Vg-QMo"/>
+                <constraint firstItem="sHa-ux-NHg" firstAttribute="centerX" secondItem="wde-KR-cNL" secondAttribute="centerX" id="FLD-zY-36z"/>
+                <constraint firstItem="nn2-b6-aQs" firstAttribute="centerX" secondItem="wde-KR-cNL" secondAttribute="centerX" id="OtZ-ND-JVp"/>
+                <constraint firstItem="JUY-Ez-hJA" firstAttribute="centerX" secondItem="wde-KR-cNL" secondAttribute="centerX" id="P6k-jJ-YN2"/>
+                <constraint firstItem="abv-hM-XxT" firstAttribute="centerY" secondItem="wde-KR-cNL" secondAttribute="centerY" id="Ycw-J2-EY4"/>
+                <constraint firstItem="sQp-O0-9Ex" firstAttribute="top" secondItem="JUY-Ez-hJA" secondAttribute="top" id="ecx-5B-q0q"/>
+                <constraint firstItem="nn2-b6-aQs" firstAttribute="top" secondItem="sHa-ux-NHg" secondAttribute="bottom" constant="5" id="sVk-5F-Js2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="401.44927536231887" y="-529.35267857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
